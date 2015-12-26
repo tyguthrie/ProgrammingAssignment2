@@ -35,7 +35,7 @@ makeCacheMatrix <- function(x = matrix()) {
         ## set function sets new cached matrix into PARENT environment
         set <- function(y) { 
                 x <<- y    ## assign the matrix to x in PARENT environment
-                s <<- NULL ## assign NULL to m in PARENT environment
+                s <<- NULL ## assign NULL to s in PARENT environment
         }
       
         ## get function retrieves the value of x (the original matrix)
